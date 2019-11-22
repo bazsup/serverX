@@ -20,7 +20,7 @@
         immediate: yes
     - name: check status
       uri:
-        uri: http://winX.example.com
+        uri: http://192.168.52.140
       register: result
       delegate_to: localhost
     - debug:
